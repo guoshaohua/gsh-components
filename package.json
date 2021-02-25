@@ -1,0 +1,40 @@
+{
+  "name": "gsh-components",
+  "description": "my personal componets library",
+  "version": "1.0.2",
+  "author": "guoshaohua <guosh52@chinaunicom.cn>",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/gsh-components.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "@ant-design-vue/pro-layout": "^0.3.12",
+    "@antv/data-set": "^0.10.2",
+    "ant-design-vue": "1.6.3",
+    "vue": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@ant-design/colors": "^3.2.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
