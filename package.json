@@ -1,7 +1,7 @@
 {
   "name": "gsh-components",
   "description": "my personal componets library",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "guoshaohua <guosh52@chinaunicom.cn>",
   "license": "MIT",
   "private": false,
@@ -10,6 +10,15 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guoshaohua/gsh-components"
+  },
+  "keywords": ["antdesign", "components", "vue", "imagesUpload"],
+  "bugs": {
+    "url": "https://github.com/guoshaohua/gsh-components/issues"
+  },
+  "homepage": "https://github.com/guoshaohua/",
   "dependencies": {
     "@ant-design-vue/pro-layout": "^0.3.12",
     "@antv/data-set": "^0.10.2",
